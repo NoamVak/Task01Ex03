@@ -20,7 +20,7 @@ int num=0;
     public void Click(View view) {
         num++;
         btn.setText("This is a click number:"+num);
-        if (num>6){
+        if (num==6){
             btn.setText("Enough to click. Go to new start!");
             num=0;
         }
